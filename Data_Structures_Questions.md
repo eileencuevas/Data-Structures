@@ -17,10 +17,13 @@ Answer the following questions for each of the data structures you implemented a
 ## Binary Search Tree
 
 1. What is the runtime complexity of `insert`?
+   O (log n). As we recursively call the function, the number of nodes we have to look at nearly halves as we only have to look at one side of the tree.
 
 2. What is the runtime complexity of `contains`?
+   O (log n), for reasons similar to insert.
 
 3. What is the runtime complexity of `get_max`?
+   O (log n). It only needs to traverse one half of the tree each time.
 
 ## Heap
 
